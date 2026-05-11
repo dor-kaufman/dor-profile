@@ -1,39 +1,196 @@
 <!DOCTYPE html>
 <html lang="he" dir="rtl">
+
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
   <title>Dor Kaufman</title>
+
   <style>
     body {
-      font-family: Arial;
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f7f7f5;
+      color: #222;
+      line-height: 1.9;
+    }
+
+    .container {
       max-width: 900px;
       margin: auto;
-      padding: 40px;
-      line-height: 1.8;
-      background: #fafafa;
-      color: #222;
+      padding: 80px 24px;
     }
 
-    h1, h2 {
-      color: #111;
+    h1 {
+      font-size: 54px;
+      margin-bottom: 10px;
+      font-weight: 700;
     }
 
-    .section {
+    .subtitle {
+      font-size: 22px;
+      color: #666;
+      margin-bottom: 60px;
+    }
+
+    h2 {
+      margin-top: 70px;
+      margin-bottom: 20px;
+      font-size: 28px;
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 10px;
+    }
+
+    p {
+      font-size: 20px;
+      margin-bottom: 24px;
+    }
+
+    .job {
       margin-bottom: 50px;
+    }
+
+    .job-title {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 6px;
+    }
+
+    .job-company {
+      color: #666;
+      margin-bottom: 16px;
+    }
+
+    ul {
+      padding-right: 20px;
+    }
+
+    li {
+      margin-bottom: 12px;
+      font-size: 18px;
+    }
+
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 20px;
+    }
+
+    .skill {
+      background: white;
+      border: 1px solid #ddd;
+      padding: 10px 16px;
+      border-radius: 30px;
+      font-size: 16px;
+    }
+
+    footer {
+      margin-top: 100px;
+      color: #888;
+      font-size: 14px;
+      text-align: center;
+    }
+
+    @media(max-width: 768px) {
+      h1 {
+        font-size: 40px;
+      }
+
+      p {
+        font-size: 18px;
+      }
+
+      .subtitle {
+        font-size: 18px;
+      }
     }
   </style>
 </head>
 
 <body>
 
-<h1>דור קאופמן</h1>
+  <div class="container">
 
-<div class="section">
-<h2>Profile</h2>
-<p>
-כאן תדביק את הטקסט שכתבנו
-</p>
-</div>
+    <h1>דור קאופמן</h1>
+
+    <div class="subtitle">
+      מוביל תהליכים, תוכניות ואנשים בעולמות הטכנולוגיה והחדשנות
+    </div>
+
+    <h2>עליי</h2>
+
+    <p>
+      אני מגיע מרקע של מעל 10 שנים בהובלת תהליכים מורכבים בארגוני טכנולוגיה וסטארטאפים, בתפקידים שחיברו בין אנשים, מוצר ותפעול.
+    </p>
+
+    <p>
+      לאורך השנים העבודה שלי התמקדה ביצירת בהירות בתוך מערכות מורכבות — בניית תהליכים, מסגרות עבודה ושפה אחידה שמאפשרים לאנשים, צוותים וארגונים לעבוד טוב יותר יחד.
+    </p>
+
+    <p>
+      אחד התחומים המרכזיים בהם עסקתי היה בניית חוויית משתמש ולקוח מקצה לקצה: יצירת שפה ברורה, נגישה ואחידה בכל נקודות המפגש בין אנשים לבין מוצר או ארגון — דרך אתרים, מצגות, onboarding, תהליכי עבודה ותקשורת שוטפת.
+    </p>
+
+    <p>
+      היום אני מחפש לקחת את היכולות האלה לעולמות שבהם הפוקוס הוא הובלת אנשים, תוכניות ותהליכי התפתחות — תוך שימוש בכלים טכנולוגיים, חשיבה מערכתית וחיבור אנושי.
+    </p>
+
+    <h2>ניסיון מקצועי</h2>
+
+    <div class="job">
+      <div class="job-title">Director of Customer Experience</div>
+      <div class="job-company">Bridgewise | 2023 - Today</div>
+
+      <ul>
+        <li>הובלת פעילות CX גלובלית מול עשרות ארגונים במספר אזורים בעולם</li>
+        <li>בניית תהליכים ומתודולוגיות ליצירת בהירות ואחידות לאורך מסע הלקוח</li>
+        <li>עבודה חוצת־ארגון עם מוצר, מכירות, Delivery והנהלה בכירה</li>
+        <li>הובלת צוותים בינלאומיים ופיתוח מסגרות עבודה בסביבות מורכבות</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-title">Head of Customer Success & Pre-Sales</div>
+      <div class="job-company">TenureX | 2021 - 2022</div>
+
+      <ul>
+        <li>הקמת פעילות Customer Success מאפס</li>
+        <li>בניית onboarding ותהליכי עבודה מול לקוחות ראשונים</li>
+        <li>חיבור בין צרכי לקוחות לבין צוותי מוצר ופיתוח</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-title">Team Lead, Intelligence Officer</div>
+      <div class="job-company">Unit 8200 | 2010 - 2014</div>
+
+      <ul>
+        <li>הובלת צוותים רב־תחומיים בסביבות מורכבות ודינמיות</li>
+        <li>ניהול תהליכי עבודה ותיאום בין גורמים שונים</li>
+      </ul>
+    </div>
+
+    <h2>חוזקות מרכזיות</h2>
+
+    <div class="skills">
+      <div class="skill">הובלת תהליכים</div>
+      <div class="skill">בניית תוכניות</div>
+      <div class="skill">חשיבה מערכתית</div>
+      <div class="skill">הובלת אנשים</div>
+      <div class="skill">Customer Experience</div>
+      <div class="skill">Storytelling</div>
+      <div class="skill">Product Thinking</div>
+      <div class="skill">Cross Functional Leadership</div>
+    </div>
+
+    <footer>
+      Dor Kaufman
+    </footer>
+
+  </div>
 
 </body>
+
 </html>
