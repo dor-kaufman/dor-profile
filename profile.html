@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>דור קאופמן</title>
+
+  <style>
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: #f5f5f3;
+      font-family: Arial, sans-serif;
+      color: #1f1f1f;
+      line-height: 1.9;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: auto;
+      padding: 80px 40px;
+    }
+
+    .hero {
+      display: flex;
+      align-items: flex-start;
+      gap: 40px;
+      margin-bottom: 80px;
+      flex-wrap: wrap;
+    }
+
+    .hero-text {
+      flex: 1;
+      min-width: 280px;
+    }
+
+    .profile-image {
+      width: 180px;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 4px solid white;
+      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+      flex-shrink: 0;
+    }
+
+    .content {
+      max-width: 760px;
+      margin-right: 220px;
+    }
+
+    .card {
+      background: white;
+      padding: 42px;
+      border-radius: 24px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.04);
+      margin-bottom: 50px;
+    }
+
+    h1 {
+      font-size: 58px;
+      margin-bottom: 12px;
+      margin-top: 0;
+      font-weight: 700;
+      letter-spacing: -1px;
+    }
+
+    .headline {
+      font-size: 24px;
+      color: #666;
+    }
+
+    h2 {
+      font-size: 30px;
+      margin-top: 0;
+      margin-bottom: 28px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid #ddd;
+    }
+
+    p {
+      font-size: 21px;
+      margin-bottom: 28px;
+    }
+
+    .job {
+      margin-bottom: 65px;
+    }
+
+    .job-title {
+      font-size: 26px;
+      font-weight: bold;
+      margin-bottom: 8px;
+    }
+
+    .job-meta {
+      color: #777;
+      font-size: 17px;
+      margin-bottom: 20px;
+    }
+
+    ul {
+      padding-right: 24px;
+      margin: 0;
+    }
+
+    li {
+      margin-bottom: 14px;
+      font-size: 19px;
+    }
+
+    footer {
+      margin-top: 120px;
+      text-align: center;
+      color: #999;
+      font-size: 14px;
+    }
+
+    @media(max-width: 900px) {
+
+      .container {
+        padding: 50px 22px;
+      }
+
+      .hero {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 24px;
+      }
+
+      .content {
+        margin-right: 0;
+        max-width: 100%;
+      }
+
+      .profile-image {
+        width: 150px;
+        height: 150px;
+      }
+
+      h1 {
+        font-size: 42px;
+      }
+
+      .headline {
+        font-size: 20px;
+        line-height: 1.6;
+      }
+
+      h2 {
+        font-size: 26px;
+      }
+
+      p {
+        font-size: 18px;
+        line-height: 1.9;
+      }
+
+      li {
+        font-size: 17px;
+        line-height: 1.8;
+      }
+
+      .job-title {
+        font-size: 22px;
+      }
+
+      .card {
+        padding: 28px;
+        border-radius: 18px;
+      }
+
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <div class="hero">
+
+      <img src="dor.jpg" alt="Dor Kaufman" class="profile-image">
+
+      <div class="hero-text">
+
+        <h1>דור קאופמן</h1>
+
+        <div class="headline">
+          מוביל תהליכים ותוכניות | חיבור בין אנשים, מערכות וטכנולוגיה
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="content">
+
+      <div class="card">
+
+        <h2>פרופיל</h2>
+
+        <p>
+          דור קאופמן הוא מוביל תהליכים ותוכניות עם ניסיון של למעלה מעשור בעבודה בצמתי החיבור שבין אנשים, מערכות וטכנולוגיה. לאורך השנים הוביל יוזמות חוצות־ארגון בסביבות מורכבות ודינמיות, תוך בניית מסגרות עבודה, יצירת שפה משותפת וחיבור בין גורמים שונים סביב מטרות משותפות.
+        </p>
+
+        <p>
+          העשייה שלו מתמקדת ביצירת בהירות בתוך מערכות מורכבות — דרך תכנון תהליכים, בניית חוויות עבודה ולמידה, והובלת ממשקים מרובי משתתפים. מביא שילוב של חשיבה מערכתית, יכולת הובלה ועבודה אנושית עמוקה, לצד הבנה עסקית וטכנולוגית רחבה, עם רצון להוביל מסגרות ותהליכים המאפשרים לאנשים, צוותים וקהילות להתפתח ולפעול יחד בצורה אפקטיבית.
+        </p>
+
+      </div>
+
+    </div>
+
+    <footer>
+      Dor Kaufman
+    </footer>
+
+  </div>
+
+</body>
+
+</html>
